@@ -1,0 +1,90 @@
+.page-4 {
+    font-family: Montserrat, serif;
+}
+
+.layer-4-1 {
+    width: 100%;
+    height: 10vw;
+    background-color: #fde0d6;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .15) 7%, rgba(0, 0, 0, 0) 70%);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.layer-4-2 {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    background-color: rgba(240, 240, 240, 1);
+
+}
+
+.layer-4-2:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top left, #000000 -100%, #0b132b 100%);
+    transform: translate3d(30px, 23px, 0) scale(0.97);
+    filter: blur(19px);
+    opacity: 0.5;
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+.layer-4-2::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+}
+
+.page-4-tittle {
+
+}
+
+.page-4-container {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 1.5vw;
+
+}
+
+.layer-4-0{
+    background-image: url("../../Assets/Images/Projects/ifi.png");
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    background-color: #f0f0f0;
+    opacity: 0.1;
+}
+
+.job-tittle-container {
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+
+.time-range {
+    font-size: 0.7vw;
+}
+
+.work-item {
+    margin-top: 1vw;
+    font-size: 0.7vw;
+}

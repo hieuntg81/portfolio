@@ -1,0 +1,35 @@
+.layer-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #fde0d6;
+    background-image: linear-gradient(to left, rgba(0,0,0,.15) 0%, rgba(0,0,0,0) 40%);
+}
+
+.layer-4 {
+    padding: 5vw 6vw 5vw 4vw;
+    font-family: "Montserrat", serif;
+
+}
+
+.row-layer-4-1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.avatar-img {
+    height: 11vw;
+}
+
+.row-auth-info {
+    margin-top: 3vw !important;
+    padding-right: 6vw !important;
+    font-size: 0.8vw;
+}
+
+.page-2{
+    font-size: 1vw;
+}
