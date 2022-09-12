@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import './Assets/Styles/Font.css';
-import CoverPage from "./Layouts/Main/CoverPage";
+import Book from "./Layouts/Main/Book";
 
 function App() {
   return (
     <div className="book">
-      <CoverPage />
+      <Book />
     </div>
   );
 }
